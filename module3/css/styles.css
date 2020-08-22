@@ -1,0 +1,70 @@
+/* HEADER NAV */
+#header-nav {
+	background-color: #E9E9E9;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand h1 {
+	color: #4A4A4A;
+	font-size: 24px;
+	margin: 0;
+	font-family: "Gruppo", sans-serif;
+
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #4A4A4A;
+}
+
+/* BODY STYLE*/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.row {
+	background-color: lightgrey;
+	margin: 20px;
+}
+
+P{
+	padding: 15px;
+}
+
+/* XS SCREEN SIZE*/
+@media (max-width: 576px) {
+	.col-xs-12 {
+		width: 100%;
+	}
+}
+
+/* SM SCREEN SIZE*/
+@media (min-width: 577px) and (max-width: 767px) {
+	.col-sm-12 {
+		width: 100%;
+	}
+}
+
+/* MD SCREEN SIZE*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+/* LG SCREEN SIZE*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.col-lg-12 {
+		width: 100%;
+	}
+}
+
+/* XL SCREEN SIZE*/
+@media (min-width: 1200px) {
+	.col-xl-12 {
+		width: 100%;
+	}
+}
